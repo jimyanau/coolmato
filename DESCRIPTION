@@ -1,0 +1,22 @@
+Package: coolmato
+Title: coolmato
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jim",
+           family = "Yan",
+           role = c("aut", "cre"),
+           email = "jim.yan.au@gmail.com",
+           comment = c(ORCID = "0000-0001-9413-7996"))
+Description: This is a multitools to help your daily data explorations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.1
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
